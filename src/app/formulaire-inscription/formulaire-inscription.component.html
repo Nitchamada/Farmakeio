@@ -1,0 +1,141 @@
+    <div class="wrapper">
+        <div id="img">
+            <img class="logo" src="..\assets\LOGO 5.png" alt="LOGO" height="150px" width="130px" usemap="#image-map">
+            <map name="image-map">
+                <area target="" alt="LOGO" title="LOGO" href="home.html" coords="2,1460,1176,4" shape="rect">
+            </map>
+        </div>
+
+        <div class="container">
+            <div class="col-md_9">
+                <div class="row height d-flex justify-content-center align-items-center">
+                    <div class="col-md-6">
+                        <div class="search"> <i class="fa fa-search"></i> <input type="text" class="form-control"
+                                placeholder="Chercher un produit..."> <button class="btn btn-primary">Rechercher</button> </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="container">
+        <form class="was-validated"> 
+        <form>
+            <div class="row">
+                <div class="col">
+                    <label for="nom " class="form-label"> Nom </label>
+                    <input type="text" class="form-control" placeholder="Entrer votre nom" name="nom" required>
+                    <div class="valid-feedback">Valide</div>
+                    <div class="invalid-feedback">Champ obligatoire</div>
+                </div>
+
+                <div class="col">
+                    <label for="prenom" class="form-label">Prénom</label>
+                    <input type="text" class="form-control" placeholder="Entrer votre prénom" name="prenom" required>
+                    <div class="invalid-feedback">Champ obligatoire</div>
+                    <div class="valid-feedback">Valide</div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col">
+                    <label for="date de naissance" class="form-label">Date de naissance</label>
+                    <input type="text" class="form-control" placeholder=" j j / m m / a a a a " name="date de naissance"
+                        pattern="[0-9]{2}-[0-9]{2}-[0-9]{4}" required>
+                    <div class="invalid-feedback">Champ obligatoire</div>
+                    <div class="valid-feedback">Valide</div>
+                </div>
+
+                <div class="col">
+                    <label class="form-label">Genre:</label>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio1" name="optradio" value="Homme" checked>
+                        <label class="form-check-label" for="radio1">Homme</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" class="form-check-input" id="radio2" name="optradio" value="Femme">
+                        <label class="form-check-label" for="radio2">Femme</label>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" placeholder="Entrer votre Email" name="email" required>
+                    <div class="valid-feedback">Valide</div>
+                    <div class="invalid-feedback">champs obligatoire</div>
+                    <div class="invalid-feedback">Repecter la forme adresse@domaine</div>
+                </div>
+
+                <div class="col">
+                    <label for="Tel" class="form-label">Téléphone</label>
+                    <div class="input-group">
+                        <span class="input-group-text"> +216 </span>
+                        <input type="text" class="form-control" placeholder="N° de Tel"
+                            pattern="[0-9]{2}-[0-9]{3}-[0-9]{3}" name="phone number" required>
+                        <div class="valid-feedback">valide<br></div>    
+                        <div class="invalid-feedback">champ obligatoire<br></div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+            <br>
+
+
+            <div class="row">
+
+                <div class="col">
+                    <label for="password" class="form-label">Mot de passe</label>
+                    <input type="text" class="form-control" placeholder="Entrer votre mot de passe" required>
+                    <div class="valid-feedback">valide</div>
+                    <div class="invalid-feedback">champ obligatoire</div>
+                </div>
+
+                <div class="col">
+                    <label for="Adresse" class="form-label">Adresse</label>
+                    <input type="text" class="form-control" placeholder="Entrer votre adresse" required>
+                    <div class="valid-feedback">valide</div>
+                    <div class="invalid-feedback">champ obligatoire</div>
+                </div>
+            </div>
+
+
+            <br>
+
+            <div class="row">
+                <div class="col">
+                    <label for="password" class="form-label">Confirmer mot de passe</label>
+                    <input type="text" class="form-control" placeholder="Confirmer mot de passe" required>
+                    <div class="valid-feedback">valide</div>
+                    <div class="invalid-feedback">champ obligatoire</div>
+                </div>
+                <div class="col">
+                    <label for="code postal" class="form-label">Code postal</label>
+                    <input type="text" class="form-control" placeholder="XXXX" required>
+                    <div class="valid-feedback">valide</div>
+                    <div class="invalid-feedback">champ obligatoire</div>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="container d-grid">
+                <button class="btn btn-success btn-block" type="submit" href="/">Submit</button>
+            </div>
+            <br>
+            <div class="container d-grid">
+                <button class="btn btn-danger btn-block" type="reset" href="/">Reset</button>
+            </div>
+
+
+        </form>
+        </form>
+    </div>
+
+
+
